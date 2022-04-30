@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    font-family: Montserrat;
+}
+
+button {
+    width: 177px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    width: 540px;
+    height: 60px;
+    border: 1px solid orange;
+    border-collapse: collapse;
+}
+
+th {
+    background: rgb(255, 188, 6);
+}
+
+th:nth-of-type(2) {
+    background-color: orange;
+}
+
+td {
+    background: darkslateblue;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
